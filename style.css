@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  
+  background-color: hsl(30, 54%, 90%);
+  font-family: outfit, arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  margin: 50px 0 50px 0;
+}
+.container{
+  background-color:hsl(0, 100%, 100%);
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px 20px;
+  width: 500px;
+}
+.image{
+  width: 450px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+h1{
+  padding-bottom: 20px;
+  font-size: 50px;
+}
+p{
+  line-height: 30px;
+}
+.preparation-time{
+  background-color: hsl(327, 60%, 97%);
+  margin: 15px 5px;
+  border-radius: 20px;
+  padding: 20px;
+}
+h3{
+  color:hsl(332, 51%, 32%) ;
+  margin-bottom: 20p;
+}
+.preparation-time ul li{
+  line-height: 20px;
+  margin-left: 40px;
+}
+h2{
+  color:hsl(332, 51%, 32%);
+  font-size: 35px;
+  margin: 20px 0px;
+}
+
+.ingredients-container ul li{
+  line-height: 10px;
+  margin: 0px 0px 20px 20px;
+}
+.instructions-container ol li{
+  line-height: 20px;
+  margin: 0px 0px 20px 20px;
+}
+.instructions-container ol li::marker{
+  color: hsl(332, 51%, 32%);
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td{
+  color: #444;
+}
+
+td:last-child{
+  color: hsl(332, 51%, 32%);
+}
